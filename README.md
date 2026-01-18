@@ -221,6 +221,4 @@ The storage layouts are identical. V2 inherits from V1 and adds `PausableUpgrade
 - Pause power: Admin can pause transfers in V2
 - Storage safety: Always verify layout compatibility before upgrades
 
-## License
 
-MIT
