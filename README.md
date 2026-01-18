@@ -108,6 +108,25 @@ forge script script/DeployAssetToken.s.sol:DeployAssetToken \
   --etherscan-api-key $ETHERSCAN_API_KEY
 ```
 
+### Live Deployment (Sepolia Testnet)
+
+The contracts have been deployed and verified on Sepolia testnet:
+
+**Deployed Contracts:**
+- **Proxy (Main Contract)**: [`0xc8F7Df4D0ca5778C2e5c0B39909d98DFAa460171`](https://sepolia.etherscan.io/address/0xc8f7df4d0ca5778c2e5c0b39909d98dfaa460171)
+- **Implementation (V1)**: [`0x27A7911A88ff6CBe3ad17053D9027Ce907d4e538`](https://sepolia.etherscan.io/address/0x27a7911a88ff6cbe3ad17053d9027ce907d4e538)
+
+**Deployment Details:**
+- Network: Sepolia (Chain ID: 11155111)
+- Block: 10063523
+- Status: ✅ Verified on Etherscan
+
+**Transaction Hashes:**
+- Implementation: [`0xef2a24154bfa7a43043ebe46948b56a43e988ae5b2e6813732533ec3fc6c5840`](https://sepolia.etherscan.io/tx/0xef2a24154bfa7a43043ebe46948b56a43e988ae5b2e6813732533ec3fc6c5840)
+- Proxy: [`0xc13aaea14303e0a4d1aa1258b39b82191dae9587443dcdce492d482dcadd5526`](https://sepolia.etherscan.io/tx/0xc13aaea14303e0a4d1aa1258b39b82191dae9587443dcdce492d482dcadd5526)
+
+> **Note**: Use the Proxy address for all contract interactions. The implementation address is for reference only.
+
 ## CLI Interaction
 
 After deployment, interact with the contract using `cast`:
